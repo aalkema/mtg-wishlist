@@ -5,13 +5,10 @@
   font-size: 12px;
   margin-bottom: 6px;
   border-radius: 3px;
-  display: flex;
-  align-items: center;
-  justify-content: space-between;
-  height: 35px;
   max-width: 500px;
   font-size: large;
   color: #ffa82b;
+  margin-top: 8px;
 }
 
 .card:hover {
@@ -24,4 +21,13 @@
   border: 0;
   height: 100%;
   cursor: pointer;
+}
+
+.row {
+  display: flex;
+  justify-content: space-between;
+}
+
+.column {
+  flex: 50%;
 }
